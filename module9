@@ -1,0 +1,63 @@
+1) What is React Js?
+React Js is a popular JavaScript library used for building user interfaces. It was developed by Facebook and is now maintained by Facebook and a community of developers. React Js allows developers to create reusable UI components, making it easier to build complex applications. It is often used in conjunction with other libraries and frameworks, such as Redux and Node.js. React Js is known for its high performance and flexibility, and is widely used in the industry.
+
+
+
+2) What is NPM in React Js?
+The command npm is used to download JavaScript packages from Node Package Manager, and npx is used to execute JavaScript packages downloaded this way. This command will download the NPM package create-react-app to a subdirectory of the current working directory named node_modules : npm install create-react-app.
+
+
+
+3) What is Role of Node Js in react Js?
+Node.js is a JavaScript runtime that enables the execution of JavaScript code outside of a web browser. It is used to build scalable, high-performance server-side applications. On the other hand, React.js is a JavaScript library used for building user interfaces.
+
+
+
+4) What is CLI command In React Js?
+React CLI Tools: The Developer's Secret Weapon CLI (Command-Line Interface) tools in React.js allow developers to automate and streamline their development workflow. These tools provide a range of features, such as generating boilerplate code, managing dependencies, and deploying applications, directly from the command line.
+
+
+
+5) What is Components in React Js?
+In ReactJS, components are reusable parts of an application that can be composed together to create complex user interfaces. Components can contain state and react to user input, making them powerful tools for building dynamic, interactive applications. 
+They can be classified into two types: 1. function components
+                                       2. class components
+
+
+
+6) What is Header and Content Components in React Js?
+In React Js, Header and Content Components are used to structure and organize a web page. A Header component typically contains elements such as a logo, navigation bar, and login button. On the other hand, Content components contain the main content of a page, such as text, images, and other interactive elements. Both types of components play an essential
+
+
+
+7) How to install React Js on Windows, Linux Operating System? How to Install NPM and How to check version of NPM?
+To install ReactJS on Windows or Linux, follow these steps:
+ans:
+    1. [Install Node.js](https://www.geeksforgeeks.org/how-to-install-reactjs-on-windows/) - Download and install the LTS version of Node.js, which includes the Node Package Manager (NPM).
+    2. [Create a new React project](https://kinsta.com/knowledgebase/install-react/) - Use the `create-react-app` command to generate a new React project.
+    3. [Start the development server](https://kinsta.com/knowledgebase/install-react/) - Navigate to the project directory and run `npm start` to launch the development server.
+To install and check the version of NPM:
+    1. [Install Node.js](https://www.knowledgehut.com/blog/web-development/installation-of-react-on-windows) - NPM is installed alongside Node.js.
+    2. [Check NPM version](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/react-on-windows) - Open the command prompt and run `npm -v` to display the installed version of NPM. 
+
+
+
+8) How to check version of React Js?
+To check the version of ReactJS, you can use the following methods:
+Open the browser and go to http://localhost:3000, you will see the ReactJS version displayed.
+Open the Developer Tools in your browser, go to the Source tab, and check the appName.js file for the "react" or "react-dom" version.
+Examine the package.json file in your project, and the React version will be listed under the "dependencies" section.
+
+
+
+9) How to change in components of React Js?
+To change components in React, you can use conditional rendering techniques. Some common approaches include:
+Conditional Rendering with Ternary Operators: Use a boolean state variable to determine which component to render.
+Replacing a Component with Another on Button Click: Toggle a boolean state variable and conditionally render different components based on its value.
+Dynamically Rendering Components: Store component references in state and render the appropriate component based on user interaction.
+Understanding Components and Props: Learn how to pass data from parent to child components to enable dynamic rendering.
+Re-rendering Components in React: Understand how state and prop changes trigger component re-renders, allowing you to manage and update your UI.
+
+
+
+10) How to Create a List View in React Js?
